@@ -7,10 +7,10 @@ from time import sleep
  
 def Website_Data_collector():
 	'''
-	Mixerget reads a text file of bech32 BTC addresses line by line and stores as list
-	THe function then navigates to bitmix.biz, enters a btc address, clicks on start mix
+	Website_Data_collector reads a text file of items line by line and stores as list
+	The function then navigates to a website, enters an item, clicks on a required location
 	then scrapes the domain provided address and prints it to the screen
-	input: user created text file with any amount of single line btc addresses
+	input: user created text file with website input data
 	'''
 	list1 = [] #stores the docuement read data to be input for iteration
 	f = open('file.txt', 'r')
